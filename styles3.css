@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#thanksPage h1, #thanksPage h4 {
+    margin: 0 auto;
+    text-align: center;
+    color:#515151
+}
+
+#thanksPage h1{
+    margin-top: 45%;
+    font-size: 300%;
+}
+#thanksPageBtn {
+    width: 200px;
+    height: 50px;
+    background-color:  #8F3333;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 90%;
+    font-weight: 500;
+    display: block;
+    transition: all 0.1s;
+    cursor: pointer;
+    &:hover {
+        background-color:#792929;
+    }
+}
+
+
+
+
+
+
+
+#orderPageForm > input {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    padding: 1% 0;
+    padding-top: 1.4%;
+    padding-left: 5%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 24px;
+    
+
+    &::placeholder {
+        font-size: 24px;
+    }
+
+    &:active {
+        outline-color: #515151;
+    }
+}
+
+.formInput._error {
+    box-shadow: #8F3333 0 0 15px;
+}
+
+#orderPageForm > p {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+#orderPageFormSection h1 {
+    color: #515151;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.orderPageProductInfo{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    margin-right: auto;
+}
+
+.orderPageProductInfo > div {
+    width: 100%;
+}
+
+.orderPageProductInfo p {
+    width: 70%;
+}
+
+.orderPageProductInfo img {
+    max-width: 20%;
+    max-height: 20%;
+    height: auto;
+    width: auto;
+    margin-bottom: 3%;
+    min-width: 160px;
+    min-height: 160px;
+}
+
+#orderPageName {
+    font-size: 30px;
+    font-weight: 500;
+    /*margin-top: 70px ;*/
+    margin-top: 0;
+}
+
+#orderPageDesc {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px ;
+}
+
+#orderPageSize {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#orderPageCategory, #orderPageechnique {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+#orderPagePrice {
+    font-size:22px;
+    margin-top: 15px;
+}
+
+#orderPageSubmitBtn {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #515151;
+    min-width: 260px;
+    margin-top: 30px;
+    border: 3px #515151 solid;
+    transition: all 0.1s;
+    margin-bottom: 30px;
+    &:hover {
+        width: calc(30% + 5px);
+        height: 55px;
+        margin-bottom: 25px;
+    }
+    &:active {
+        width: calc(30% - 15px);
+        height: 45px;
+        margin-bottom: 35px;
+    }
+}
+
+.submitInfoSpan {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.submitInfoP {
+    font-size: 14px;
+    text-align: center;
+}
+
+.submitInfoP a {
+    color: #8F3333;
+}
